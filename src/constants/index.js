@@ -212,7 +212,7 @@ const projects = [
       },
     ],
     image: "https://i.postimg.cc/yx2DTghC/shoe.png",
-    source_code_link: "https://github.com/omrawat23/kl.git",
+    source_code_link: "https://github.com/omrawat23/ai-shoes.git",
   },
   {
     name: "My blog",
@@ -232,7 +232,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://i.postimg.cc/XJQF9YDn/blog.png",
+    image: "https://i.postimg.cc/RhFYqYDf/Screenshot-9.png",
     source_code_link: "https://github.com/omrawat23/blog.git",
   },
   {
