@@ -212,7 +212,7 @@ const projects = [
       },
     ],
     image: "https://i.postimg.cc/yx2DTghC/shoe.png",
-    source_code_link: "https://github.com/omrawat23/ai-shoes.git",
+    source_code_link: "https://ai-shoes.vercel.app/",
   },
   {
     name: "My blog",
@@ -235,10 +235,31 @@ const projects = [
     image: "https://i.postimg.cc/RhFYqYDf/Screenshot-9.png",
     source_code_link: "https://github.com/omrawat23/blog.git",
   },
+  // {
+  //   name: "Snake game",
+  //   description:
+  //     "A classic Snake game using React for a dynamic and interactive user experience. Key functionalities include game start/pause/reset options and increasing difficulty levels as the snake grows. The project aims to provide an engaging and nostalgic gaming experience with modern web technologies.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "redux-toolkit",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: "https://i.postimg.cc/QxB5Wsgr/snake.png",
+  //   source_code_link: "https://github.com/omrawat23/snake",
+  // },
   {
-    name: "Snake game",
+    name: "Unicus",
     description:
-      "A classic Snake game using React for a dynamic and interactive user experience. Key functionalities include game start/pause/reset options and increasing difficulty levels as the snake grows. The project aims to provide an engaging and nostalgic gaming experience with modern web technologies.",
+      "A basic landing page prototype integrating ai chatbot",
     tags: [
       {
         name: "react",
@@ -253,8 +274,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://i.postimg.cc/QxB5Wsgr/snake.png",
-    source_code_link: "https://github.com/omrawat23/snake",
+    image: "https://i.postimg.cc/1Xz7sfB0/Screenshot-2024-06-25-232248.png",
+    source_code_link: "https://unicuss.vercel.app/",
   },
 ];
 

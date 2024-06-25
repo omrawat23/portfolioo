@@ -40,7 +40,7 @@ const Navbar = () => {
           <Link to="https://github.com/omrawat23"  target="_blank">
             <img src="https://img.icons8.com/stickers/100/github.png" alt='GitHub logo' className='w-9 h-9 object-contain' />
           </Link>
-          <a href="src\assets\Om Resume.pdf" target="_blank">
+          <a href="./desktop_pc/omrawat.xyz.pdf" target="_blank">
             <img src="https://img.icons8.com/matisse/100/pdf.png" alt='PDF logo' className='w-9 h-9 object-contain' />
             </a>
           <Link
