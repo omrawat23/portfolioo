@@ -138,16 +138,14 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Web Developer",
-    company_name: "Flab",
-    icon: "https://flabslis.com/static/media/Flabs_Header.2418a485b6ed5e188937091d214e377a.svg",
+    title: "CSR Intern",
+    company_name: "CountryEdu Private Limited",
+    icon: "https://cdn.sanity.io/images/c938qibx/production/b6a22626ccc31486a3d9c627a131403eac9d9ef2-200x200.jpg",
     iconBg: "#E6DEDD",
-    date: "June 2023 - July 2023",
+    date: "June 2022 - July 2022",
     points: [
-      "Collaborated with the development team to develop and debug software components, ensuring compliance with quality standards.",
-      "Contributed to the development of new features and enhancements.",
-      "Participated in code reviews, debugging, and troubleshooting of software issues.",
-      "Performed a component library version migration, ensuring compatibility with existing software components.",
+      "Successfully identified and fixed website problems, including broken links, typographical errors, and formatting issues",
+      "Worked as a productive team member to make company's website while also writing engaging content for various services offered by the company.",
     ],
   },
   {
@@ -157,10 +155,10 @@ const experiences = [
     iconBg: "#2d9f5a",
     date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built flib’s website from scratch, focusing on user experience and responsiveness.",
+      "Worked closely with the design team to translate their concepts into a functional site",
+      "Integrated Firebase to streamline the orders gateway for real-time data and management.",
+      "Coordinated project timelines and stakeholder communications to ensure timely delivery.",
     ],
   },
 ];
