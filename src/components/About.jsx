@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        🚀 Innovative Full-Stack Web Designer transforming digital visions into captivating realities. 💡 Equipped with a blend of creativity and technical prowess, I craft seamless user experiences that leave lasting impressions. From sleek front-end designs to robust back-end functionality, I thrive on turning ideas into interactive masterpieces. 🔧 Fluent in HTML/CSS, JavaScript, and a variety of frameworks, I stay ahead of the curve to deliver cutting-edge solutions. Let's connect and collaborate on making your digital dreams a dazzling reality! ✨
+        🚀 Innovative Full-Stack Web Designer transforming digital visions into captivating realities. Equipped with a blend of creativity and technical prowess, I craft seamless user experiences that leave lasting impressions. From sleek front-end designs to robust back-end functionality. Fluent in HTML/CSS, JavaScript, and a variety of frameworks, I stay ahead of the curve to deliver cutting-edge solutions. Let's connect and collaborate on making your digital dreams a dazzling reality! ✨
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
