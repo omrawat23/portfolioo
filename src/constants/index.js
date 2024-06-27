@@ -194,7 +194,7 @@ const projects = [
   {
     name: "E-commerce store",
     description:
-      "A responsive e-commerce store using React and Node.js, featuring Stripe integration for secure payments. The store will offer seamless navigation, a user-friendly interface, and efficient product management.The project aims to deliver a high-performance, secure, and engaging online shopping experience.",
+      "A responsive e-commerce store using React and Node.js, featuring Stripe integration for secure payments. The store will offer seamless navigation, a user-friendly interface, and efficient product management.The project aims to deliver an engaging online shopping experience at the comfort of your home.",
     tags: [
       {
         name: "react",
@@ -231,7 +231,7 @@ const projects = [
       },
     ],
     image: "https://i.postimg.cc/RhFYqYDf/Screenshot-9.png",
-    source_code_link: "https://github.com/omrawat23/blog.git",
+    source_code_link: "https://omblog.vercel.app/",
   },
   // {
   //   name: "Snake game",
