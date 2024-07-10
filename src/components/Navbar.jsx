@@ -32,6 +32,7 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
+      
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <div className='flex items-center gap-2'>
           <Link to='https://www.linkedin.com/in/om-rawat-1b173127b/' target="_blank" >

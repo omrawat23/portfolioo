@@ -10,8 +10,23 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
 }
+
+body {
+  background-color: #d4d3d3;
+}
+
+.custom-gradient1 {
+  background-image: radial-gradient(121.58% 100% at var(--lantern-x) var(--lantern-y), #8690a6 0%, #d5d5d6 100%);
+  --lantern-y: 116.75px;
+  --lantern-x: 483px;
+}
+.custom-gradient {
+  background-image: radial-gradient(121.58% 100% at var(--lantern-x) var(--lantern-y), #0c2e79 0%, #636383 100%);
+  --lantern-y: 116.75px;
+  --lantern-x: 483px;
+}
+
 
 .hash-span {
   margin-top: -100px;
@@ -125,6 +140,9 @@
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
 }
+
+
+
 
 @keyframes mulShdSpin {
   0%,
