@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export const RevealLinks = () => {
   return (
-    <div className="flex xxs:flex-col xxs:mt-[-220px] lg:flex-row gap-0 xl:gap-28 mt-[-150px] justify-center items-center ">
+    <div className="flex xxs:flex-col xxs:mt-[-290px] lg:flex-row gap-0 xl:gap-28 mt-[-150px] justify-center items-center ">
     <section className="grid gap-4 bg-white-300 px-8 py-24 text-black ">
       <FlipLink>Hi,</FlipLink>
       <FlipLink>My name is Om</FlipLink>
