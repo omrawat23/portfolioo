@@ -10,7 +10,7 @@ export const RevealLinks = () => {
       <FlipLink>I'm a Fullstack</FlipLink>
       <FlipLink>Developer</FlipLink>
     </section>
-    <div className="mt-[-30px]">
+    <div className="mt-[-30px] mr-[-84px]">
     <img src='./desktop_pc/ee.gif' alt='logo' width={400} height={300}/>
     </div>
     </div>
@@ -26,7 +26,7 @@ const FlipLink = ({ children, href }) => {
       initial="initial"
       whileHover="hovered"
       href={href}
-      className="relative block overflow-hidden whitespace-pre text-2xl font-extrabold sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
+      className="relative block overflow-hidden whitespace-pre text-2xl font-extrabold sm:text-4xl md:text-5xl lg:text-7xl"
       style={{
         lineHeight: 1.25,
       }}

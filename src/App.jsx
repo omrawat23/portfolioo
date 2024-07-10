@@ -1,6 +1,4 @@
-"use client"
-import Lenis from "lenis";
-import { useEffect } from "react";
+
 import { BrowserRouter } from "react-router-dom";
 import {SlideTabsExample} from '../src/components/SlideTabs'
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works,} from "./components";
@@ -8,15 +6,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works,} from
 
 
 const App = () => {
-  useEffect( () => {
-    const lenis = new Lenis()
-    function raf(time) {
-        lenis.raf(time)
-        requestAnimationFrame(raf)
-    }
-    requestAnimationFrame(raf)
 
-},[])
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-rose-950'>
