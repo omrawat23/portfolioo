@@ -57,7 +57,7 @@ const SlideTabs = () => {
         <a href="#contact">
           <Tab setPosition={setPosition}>Contact</Tab>
         </a>
-        <Tab setPosition={setPosition}>Blog</Tab>
+        {/* <Tab setPosition={setPosition}>Blog</Tab> */}
 
         <Cursor position={position} />
       </ul>
