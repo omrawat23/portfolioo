@@ -63,13 +63,13 @@ const SlideTabs = () => {
         <Cursor position={position} />
       </ul>
          <Link to="https://www.linkedin.com/in/om-rawat-1b173127b/" target="_blank">
-          <img src="https://i.postimg.cc/xTTRqW8v/icons8-linkedin-48.png" alt="LinkedIn logo" className="w-9 h-9 object-contain m-1" />
+          <img src="https://i.postimg.cc/xTTRqW8v/icons8-linkedin-48.png" alt="LinkedIn logo" className="w-9 h-9 xxs:hidden object-contain m-1" />
         </Link>
         <Link to="https://github.com/omrawat23" target="_blank">
-          <img src="https://img.icons8.com/stickers/100/github.png" alt="GitHub logo" className="w-9 h-9 object-contain m-1" />
+          <img src="https://img.icons8.com/stickers/100/github.png" alt="GitHub logo" className="w-9 h-9 xxs:hidden object-contain m-1" />
         </Link>
         <a href="./desktop_pc/omrawat.xyz.pdf" target="_blank">
-          <img src="https://img.icons8.com/matisse/100/pdf.png" alt="PDF logo" className="w-9 h-9 object-contain m-1" />
+          <img src="https://img.icons8.com/matisse/100/pdf.png" alt="PDF logo" className="w-9 h-9 xxs:hidden object-contain m-1" />
         </a>
     </div>
   );
