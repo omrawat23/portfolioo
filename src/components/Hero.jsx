@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { RevealLinks } from "./RevealLinks";
 
@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[250px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[150px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
        
 
@@ -17,7 +17,7 @@ const Hero = () => {
 
 
 
-      <div className='absolute lg:bottom-32 w-full flex justify-center items-center xxs:bottom-0 sm:bottom-32 md:bottom-32'>
+      <div className='absolute w-full flex justify-center items-center xxs:bottom-44 sm:bottom-56 md:bottom-56 lg:bottom-56 xl:bottom-56'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl mb-20 border-4 border-secondary flex justify-center items-start p-2 '>
             <motion.div
@@ -38,4 +38,5 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero, "");
+

@@ -1,7 +1,6 @@
 
 import { BrowserRouter } from "react-router-dom";
-import {SlideTabsExample} from '../src/components/SlideTabs'
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works,} from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, SlideTabsExample} from "./components";
 
 
 
@@ -10,7 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-rose-950'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center mt-6'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center mt-[-54px]'>
         <SlideTabsExample/>
           {/* <Navbar /> */}
           <Hero />

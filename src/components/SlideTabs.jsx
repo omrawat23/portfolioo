@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom"; // Assuming you are using React Router
+import { SectionWrapper } from "../hoc";
 
-export const SlideTabsExample = () => {
+const SlideTabsExample = () => {
   return (
     <div className="">
       <SlideTabs />
@@ -19,9 +20,9 @@ const SlideTabs = () => {
 
   return (
     <div className="w-full flex justify-between items-center max-w-6xl mx-auto">
-      {/* <div className="hidden md:flex flex-row items-center gap-2">
+      <div className="hidden md:flex flex-row items-center gap-2">
        
-             <Link
+        <Link
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
@@ -29,12 +30,12 @@ const SlideTabs = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <p className="text-black text-[18px] font-bold cursor-pointer flex">
-            Om &nbsp;
-            <span className="sm:block hidden"> | Full-stack Developer</span>
+          <p className="text-black text-[24px] font-bold cursor-pointer flex">
+            Om.xyz &nbsp;
+            <span className="sm:block hidden"></span>
           </p>
         </Link>
-      </div> */}
+      </div>
 
       <ul
         onMouseLeave={() => {
@@ -61,16 +62,15 @@ const SlideTabs = () => {
 
         <Cursor position={position} />
       </ul>
-{/* 
          <Link to="https://www.linkedin.com/in/om-rawat-1b173127b/" target="_blank">
-          <img src="https://i.postimg.cc/xTTRqW8v/icons8-linkedin-48.png" alt="LinkedIn logo" className="w-9 h-9 object-contain" />
+          <img src="https://i.postimg.cc/xTTRqW8v/icons8-linkedin-48.png" alt="LinkedIn logo" className="w-9 h-9 object-contain m-1" />
         </Link>
         <Link to="https://github.com/omrawat23" target="_blank">
-          <img src="https://img.icons8.com/stickers/100/github.png" alt="GitHub logo" className="w-9 h-9 object-contain" />
+          <img src="https://img.icons8.com/stickers/100/github.png" alt="GitHub logo" className="w-9 h-9 object-contain m-1" />
         </Link>
         <a href="./desktop_pc/omrawat.xyz.pdf" target="_blank">
-          <img src="https://img.icons8.com/matisse/100/pdf.png" alt="PDF logo" className="w-9 h-9 object-contain" />
-        </a> */}
+          <img src="https://img.icons8.com/matisse/100/pdf.png" alt="PDF logo" className="w-9 h-9 object-contain m-1" />
+        </a>
     </div>
   );
 };
@@ -109,3 +109,5 @@ const Cursor = ({ position }) => {
     />
   );
 };
+
+export default SectionWrapper(SlideTabsExample, "");
