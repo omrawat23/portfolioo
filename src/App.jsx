@@ -9,13 +9,14 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-rose-950'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center mt-[-54px]'>
-        <SlideTabsExample/>
-          {/* <Navbar /> */}
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+          <SlideTabsExample/>
           <Hero />
-          
         </div>
+        <div className="mt-[540px]">
         <About />
+        </div>
+        
         <Experience />
         
         <Tech />

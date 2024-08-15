@@ -19,7 +19,7 @@ const SlideTabs = () => {
   });
 
   return (
-    <div className="w-full flex justify-between items-center max-w-6xl mx-auto">
+    <div className="w-full flex justify-between items-center max-w-6xl mx-auto  mt-[-54px]">
       <div className="hidden md:flex flex-row items-center gap-2">
        
         <Link
@@ -62,15 +62,17 @@ const SlideTabs = () => {
 
         <Cursor position={position} />
       </ul>
+      <div className="hidden md:flex flex-row items-center gap-2">
          <Link to="https://www.linkedin.com/in/om-rawat-1b173127b/" target="_blank">
-          <img src="https://i.postimg.cc/xTTRqW8v/icons8-linkedin-48.png" alt="LinkedIn logo" className="w-9 h-9 xxs:hidden object-contain m-1" />
+          <img src="https://i.postimg.cc/xTTRqW8v/icons8-linkedin-48.png" alt="LinkedIn logo" className="w-9 h-9 object-contain" />
         </Link>
         <Link to="https://github.com/omrawat23" target="_blank">
-          <img src="https://img.icons8.com/stickers/100/github.png" alt="GitHub logo" className="w-9 h-9 xxs:hidden object-contain m-1" />
+          <img src="https://img.icons8.com/stickers/100/github.png" alt="GitHub logo" className="w-9 h-9 object-contain" />
         </Link>
         <a href="./desktop_pc/omrawat.xyz.pdf" target="_blank">
-          <img src="https://img.icons8.com/matisse/100/pdf.png" alt="PDF logo" className="w-9 h-9 xxs:hidden object-contain m-1" />
+          <img src="https://img.icons8.com/matisse/100/pdf.png" alt="PDF logo" className="w-9 h-9 object-contain" />
         </a>
+    </div>
     </div>
   );
 };

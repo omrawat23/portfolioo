@@ -3,16 +3,20 @@ import { motion } from "framer-motion";
 
 export const RevealLinks = () => {
   return (
-    <div className="flex xxs:flex-col xxs:mt-[-260px] lg:flex-row gap-0 xl:gap-28 lg:gap-12 mt-[-150px] justify-center items-center ">
-    <section className="grid gap-4 bg-white-300 px-8 py-24 text-black ">
-      <FlipLink>Hi,</FlipLink>
-      <FlipLink>My name is Om</FlipLink>
-      <FlipLink>I'm a Fullstack</FlipLink>
-      <FlipLink>Developer</FlipLink>
-    </section>
-    <div className="mt-[-30px] mr-[-84px] xxs:w-44 xxs:h-auto xxs:ml-[-72px] lg:w-96 lg:h-auto">
-    <img src='./desktop_pc/ee.gif' alt='logo' width={400} height={300}/>
-    </div>
+    <div className="flex flex-col md:flex-row justify-between items-center p-4 md:p-8 lg:p-12">
+      <section className="grid gap-2 md:gap-4 text-black mb-8 md:mb-0">
+        <FlipLink>Hi,</FlipLink>
+        <FlipLink>My name is Om</FlipLink>
+        <FlipLink>I'm a Fullstack</FlipLink>
+        <FlipLink>Developer</FlipLink>
+      </section>
+      <div className="w-full md:w-auto flex justify-center md:justify-end">
+        <img 
+          src='./desktop_pc/ee.gif' 
+          alt='logo' 
+          className="w-[200px] sm:w-[300px] md:w-[350px] lg:w-[400px] h-auto"
+        />
+      </div>
     </div>
   );
 };
