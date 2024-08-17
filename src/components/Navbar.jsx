@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
+import file from '../assets/file.svg';
+import linkedin from '../assets/linkedin.svg';
+import github from '../assets/github.svg';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -36,13 +39,13 @@ const Navbar = () => {
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <div className='flex items-center gap-2'>
           <Link to='https://www.linkedin.com/in/om-rawat-1b173127b/' target="_blank" >
-            <img src="https://i.postimg.cc/xTTRqW8v/icons8-linkedin-48.png" alt='LinkedIn logo' className='w-9 h-9 object-contain' />
+            <img src={linkedin} alt='LinkedIn logo' className='w-9 h-9 object-contain' />
           </Link>
           <Link to="https://github.com/omrawat23"  target="_blank">
-            <img src="https://img.icons8.com/stickers/100/github.png" alt='GitHub logo' className='w-9 h-9 object-contain' />
+            <img src={github} alt='GitHub logo' className='w-9 h-9 object-contain' />
           </Link>
-          <a href="./desktop_pc/omrawat.xyz.pdf" target="_blank">
-            <img src="https://img.icons8.com/matisse/100/pdf.png" alt='PDF logo' className='w-9 h-9 object-contain' />
+          <a href="./desktop_pc/om.pdf" target="_blank">
+            <img src={file} alt='PDF logo' className='w-9 h-9 object-contain' />
             </a>
           <Link
           to='/'

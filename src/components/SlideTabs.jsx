@@ -2,6 +2,9 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom"; // Assuming you are using React Router
 import { SectionWrapper } from "../hoc";
+import file from '../assets/cv.svg';
+import linkedin from '../assets/linkedin.svg';
+import github from '../assets/github.svg';
 
 const SlideTabsExample = () => {
   return (
@@ -63,15 +66,15 @@ const SlideTabs = () => {
         <Cursor position={position} />
       </ul>
       <div className="hidden md:flex flex-row items-center gap-2">
-         <Link to="https://www.linkedin.com/in/om-rawat-1b173127b/" target="_blank">
-          <img src="https://i.postimg.cc/xTTRqW8v/icons8-linkedin-48.png" alt="LinkedIn logo" className="w-9 h-9 object-contain" />
-        </Link>
-        <Link to="https://github.com/omrawat23" target="_blank">
-          <img src="https://img.icons8.com/stickers/100/github.png" alt="GitHub logo" className="w-9 h-9 object-contain" />
-        </Link>
-        <a href="./desktop_pc/omrawat.xyz.pdf" target="_blank">
-          <img src="https://img.icons8.com/matisse/100/pdf.png" alt="PDF logo" className="w-9 h-9 object-contain" />
-        </a>
+      <Link to='https://www.linkedin.com/in/om-rawat-1b173127b/' target="_blank" >
+            <img src={linkedin} alt='LinkedIn logo' className='w-9 h-9 object-contain' />
+          </Link>
+          <Link to="https://github.com/omrawat23"  target="_blank">
+            <img src={github} alt='GitHub logo' className='w-9 h-9 object-contain' />
+          </Link>
+          <a href="./desktop_pc/om.pdf" target="_blank">
+            <img src={file} alt='PDF logo' className='w-8 h-8 object-contain' />
+            </a>
     </div>
     </div>
   );
