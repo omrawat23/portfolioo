@@ -1,6 +1,5 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -15,11 +14,8 @@ import {
   git,
   figma,
   threejs,
+  ai,blo,mas,
 } from "../assets";
-
-import blog from '../assets/blo.png';
-import code from '../assets/mas.png';
-import shoe from '../assets/ai.png';
 
 export const navLinks = [
   {
@@ -196,7 +192,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "E-commerce store",
+    name: "CodeAssist",
     description:
       "CodeAssist is an intelligent coding assistant designed to enhance developer productivity by leveraging AI-driven insights. It connects with the Gemini model to provide solutions, recommendations, and code snippets tailored to the developer's needs.",
     tags: [
@@ -213,7 +209,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: {code},
+    image: mas,
     source_code_link: "https://codeasssist.vercel.app/",
   },
   {
@@ -234,7 +230,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: {blog},
+    image: blo,
     source_code_link: "https://guts-fx13.vercel.app/",
   },
   {
@@ -255,7 +251,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: {shoe},
+    image: ai,
     source_code_link: "https://ai-shoes.vercel.app/",
   },
   
