@@ -14,7 +14,6 @@ import {
   git,
   figma,
   threejs,
-  ai,blo,mas,
 } from "../assets";
 
 export const navLinks = [
@@ -209,7 +208,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: mas,
+    image: "https://i.postimg.cc/pXwWDmft/mas.png",
     source_code_link: "https://codeasssist.vercel.app/",
   },
   {
@@ -230,7 +229,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: blo,
+    image: "https://i.postimg.cc/YSpw3YjT/blo.png",
     source_code_link: "https://guts-fx13.vercel.app/",
   },
   {
@@ -251,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ai,
+    image: "https://i.postimg.cc/fy3sdskL/ai.png",
     source_code_link: "https://ai-shoes.vercel.app/",
   },
   
