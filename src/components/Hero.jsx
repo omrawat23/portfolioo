@@ -10,8 +10,6 @@ const Hero = () => {
        <div
         className={`absolute inset-0  mx-auto `}
       >
-       
-
         <RevealLinks/>
       </div>
 

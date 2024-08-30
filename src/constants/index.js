@@ -17,6 +17,10 @@ import {
   threejs,
 } from "../assets";
 
+import blog from '../assets/blo.png';
+import code from '../assets/mas.png';
+import shoe from '../assets/ai.png';
+
 export const navLinks = [
   {
     id: "about",
@@ -194,23 +198,23 @@ const projects = [
   {
     name: "E-commerce store",
     description:
-      "A responsive e-commerce store using React and Node.js, featuring Stripe integration for secure payments. The store will offer seamless navigation, a user-friendly interface, and efficient product management.The project aims to deliver an engaging online shopping experience at the comfort of your home.",
+      "CodeAssist is an intelligent coding assistant designed to enhance developer productivity by leveraging AI-driven insights. It connects with the Gemini model to provide solutions, recommendations, and code snippets tailored to the developer's needs.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "redux-toolkit",
+        name: "Gemini API",
         color: "pink-text-gradient",
       },
     ],
-    image: "https://i.postimg.cc/yx2DTghC/shoe.png",
-    source_code_link: "https://ai-shoes.vercel.app/",
+    image: {code},
+    source_code_link: "https://codeasssist.vercel.app/",
   },
   {
     name: "My blog",
@@ -230,13 +234,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://i.postimg.cc/RhFYqYDf/Screenshot-9.png",
-    source_code_link: "https://omblog.vercel.app/",
+    image: {blog},
+    source_code_link: "https://guts-fx13.vercel.app/",
   },
   {
-    name: "Snake game",
+    name: "E-commerce store",
     description:
-      "A classic Snake game using React for a dynamic and interactive user experience. Key functionalities include game start/pause/reset options and increasing difficulty levels as the snake grows. The project aims to provide an engaging and nostalgic gaming experience with modern web technologies.",
+      "A responsive e-commerce store using React and Node.js, featuring Stripe integration for secure payments. The store will offer seamless navigation, a user-friendly interface, and efficient product management.The project aims to deliver an engaging online shopping experience at the comfort of your home.",
     tags: [
       {
         name: "react",
@@ -247,12 +251,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: "https://i.postimg.cc/QxB5Wsgr/snake.png",
-    source_code_link: "https://github.com/omrawat23/snake",
+    image: {shoe},
+    source_code_link: "https://ai-shoes.vercel.app/",
   },
   
   // {
